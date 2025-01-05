@@ -1,58 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
-</head>
-<body>
-    <h1>Weather App</h1>
-    <p>
-        A modern, responsive web app built with <strong>Next.js</strong> to provide real-time weather updates for any city worldwide. 
-        It’s fast, intuitive, and packed with features to enhance your weather-checking experience.
-    </p>
+# Weather App
 
-    <h2>Features</h2>
-    <ul>
-        <li>Real-time weather updates</li>
-        <li>Dynamic weather icons & animations</li>
-        <li>Mobile-friendly design</li>
-        <li>Light & dark mode support</li>
-        <li>Search history for quick access</li>
-        <li>Geolocation-based weather data</li>
-    </ul>
+A modern, responsive web app built with Next.js to provide real-time weather updates for any city worldwide. It’s fast, intuitive, and packed with features to enhance your weather-checking experience.
 
-    <h2>Built With</h2>
-    <ul>
-        <li><strong>Next.js</strong> - React framework</li>
-        <li><strong>Tailwind CSS</strong> - Utility-first styling</li>
-        <li><strong>OpenWeatherMap API</strong> - Weather data</li>
-        <li><strong>Lucide React</strong> - Icon library</li>
-    </ul>
+## Features
 
-    <h2>Installation</h2>
-    <ol>
-        <li>Clone the repository:
-            <pre><code>git clone https://github.com/sanzydev/weather-app.git<br>cd weather-app</code></pre>
-        </li>
-        <li>Install dependencies:
-            <pre><code>npm install</code></pre>
-        </li>
-        <li>Start the development server:
-            <pre><code>npm run dev</code></pre>
-        </li>
-        <li>Open in your browser:
-            <pre><code>http://localhost:3000</code></pre>
-        </li>
-    </ol>
+- Real-time weather updates  
+- Dynamic weather icons and animations  
+- Mobile-friendly design  
+- Light and dark mode support  
+- Search history for quick access  
+- Geolocation-based weather data  
 
-    <h2>Usage</h2>
-    <ol>
-        <li>Enter a city name to view its weather.</li>
-        <li>Check details like temperature, humidity, wind speed, and more.</li>
-        <li>Toggle light/dark mode.</li>
-        <li>Use geolocation for instant local weather updates.</li>
-        <li>Access recent searches from history.</li>
-    </ol>
-</body>
-</html>
+## Built With
+
+- **Next.js** - React framework  
+- **Tailwind CSS** - Utility-first styling  
+- **OpenWeatherMap API** - Weather data provider  
+- **Lucide React** - Icon library for modern UI  
+
+## Installation
+
+1. Clone the repository to your local machine using the following command:  
+   `git clone https://github.com/sanzydev/weather-app.git`  
+
+2. Navigate to the project directory:  
+   `cd weather-app`  
+
+3. Install all required dependencies:  
+   `npm install`  
+
+4. Start the development server:  
+   `npm run dev`  
+
+5. Open your browser and navigate to the default development URL:  
+   `http://localhost:3000`  
+
+## Usage
+
+1. Enter the name of any city in the search bar to get its weather information.  
+2. View detailed weather data such as:  
+   - Current temperature  
+   - Weather description  
+   - Humidity  
+   - Wind speed  
+3. Toggle between light and dark themes with the theme switcher.  
+4. Use the geolocation feature to get weather updates for your current location.  
+5. Quickly access previous searches through the search history.  
+
+This Weather App provides a seamless and engaging experience to stay updated with real-time weather conditions. Enjoy exploring its features!
