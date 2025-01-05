@@ -71,3 +71,4 @@ Before you begin, ensure you have met the following requirements:
 3. Toggle between light and dark modes using the theme switcher.
 4. Access previous searches from the search history.
 5. Use the geolocation feature to get weather updates for your current location.
+6. 
