@@ -1,50 +1,74 @@
 # Weather App
 
-A modern, responsive web app built with Next.js to provide real-time weather updates for any city worldwide. It’s fast, intuitive, and packed with features to enhance your weather-checking experience.
+## Description
+
+This Weather App is a modern, responsive web application built with Next.js that provides real-time weather information for any city around the world. It features a clean, intuitive interface and displays comprehensive weather data including temperature, humidity, wind speed, and more.
 
 ## Features
 
-- Real-time weather updates  
-- Dynamic weather icons and animations  
-- Mobile-friendly design  
-- Light and dark mode support  
-- Search history for quick access  
-- Geolocation-based weather data  
+- Real-time weather data fetching
+- Responsive design for mobile and desktop
+- Detailed weather information display
+- Dynamic weather icons based on current conditions
+- Error handling for failed API requests
+- Smooth animations and transitions
+- Light and dark mode support
+- Search history for quick access to previous queries
+- Geolocation-based weather updates
 
-## Built With
+## Technologies Used
 
-- **Next.js** - React framework  
-- **Tailwind CSS** - Utility-first styling  
-- **OpenWeatherMap API** - Weather data provider  
-- **Lucide React** - Icon library for modern UI  
+- [Next.js](https://nextjs.org/) - React framework for production
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [OpenWeatherMap API](https://openweathermap.org/api) - Weather data provider
+- [Lucide React](https://lucide.dev/) - Icon library
 
-## Installation
+## Prerequisites
 
-1. Clone the repository to your local machine using the following command:  
-   `git clone https://github.com/sanzydev/weather-app.git`  
+Before you begin, ensure you have met the following requirements:
 
-2. Navigate to the project directory:  
-   `cd weather-app`  
+- **Node.js** (v14.0.0 or later)
+- **npm** (v6.0.0 or later)
+- **OpenWeatherMap API key**: Sign up at [OpenWeatherMap](https://openweathermap.org/api) to obtain your API key.
 
-3. Install all required dependencies:  
-   `npm install`  
+## Setup and Installation
 
-4. Start the development server:  
-   `npm run dev`  
+1. Clone the repository:
 
-5. Open your browser and navigate to the default development URL:  
-   `http://localhost:3000`  
+    ```bash
+    git clone https://github.com/sanzydev/weather-app.git
+    cd weather-app
+    ```
+
+2. Install the dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Start the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+5. Open the app in your browser at:
+
+    ```
+    http://localhost:3000
+    ```
 
 ## Usage
 
-1. Enter the name of any city in the search bar to get its weather information.  
-2. View detailed weather data such as:  
-   - Current temperature  
-   - Weather description  
-   - Humidity  
-   - Wind speed  
-3. Toggle between light and dark themes with the theme switcher.  
-4. Use the geolocation feature to get weather updates for your current location.  
-5. Quickly access previous searches through the search history.  
-
-This Weather App provides a seamless and engaging experience to stay updated with real-time weather conditions. Enjoy exploring its features!
+1. Enter the name of a city in the search bar to fetch its weather information.
+2. View detailed weather data such as:
+    - Current temperature
+    - Weather description
+    - Humidity
+    - Wind speed
+    - Dynamic weather icons
+3. Toggle between light and dark modes using the theme switcher.
+4. Access previous searches from the search history.
+5. Use the geolocation feature to get weather updates for your current location.
+6. 
