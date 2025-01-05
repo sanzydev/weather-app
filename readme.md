@@ -1,74 +1,58 @@
-# Weather App
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <h1>Weather App</h1>
+    <p>
+        A modern, responsive web app built with <strong>Next.js</strong> to provide real-time weather updates for any city worldwide. 
+        It’s fast, intuitive, and packed with features to enhance your weather-checking experience.
+    </p>
 
-## Description
+    <h2>Features</h2>
+    <ul>
+        <li>Real-time weather updates</li>
+        <li>Dynamic weather icons & animations</li>
+        <li>Mobile-friendly design</li>
+        <li>Light & dark mode support</li>
+        <li>Search history for quick access</li>
+        <li>Geolocation-based weather data</li>
+    </ul>
 
-This Weather App is a modern, responsive web application built with Next.js that provides real-time weather information for any city around the world. It features a clean, intuitive interface and displays comprehensive weather data including temperature, humidity, wind speed, and more.
+    <h2>Built With</h2>
+    <ul>
+        <li><strong>Next.js</strong> - React framework</li>
+        <li><strong>Tailwind CSS</strong> - Utility-first styling</li>
+        <li><strong>OpenWeatherMap API</strong> - Weather data</li>
+        <li><strong>Lucide React</strong> - Icon library</li>
+    </ul>
 
-## Features
+    <h2>Installation</h2>
+    <ol>
+        <li>Clone the repository:
+            <pre><code>git clone https://github.com/sanzydev/weather-app.git<br>cd weather-app</code></pre>
+        </li>
+        <li>Install dependencies:
+            <pre><code>npm install</code></pre>
+        </li>
+        <li>Start the development server:
+            <pre><code>npm run dev</code></pre>
+        </li>
+        <li>Open in your browser:
+            <pre><code>http://localhost:3000</code></pre>
+        </li>
+    </ol>
 
-- Real-time weather data fetching
-- Responsive design for mobile and desktop
-- Detailed weather information display
-- Dynamic weather icons based on current conditions
-- Error handling for failed API requests
-- Smooth animations and transitions
-- Light and dark mode support
-- Search history for quick access to previous queries
-- Geolocation-based weather updates
-
-## Technologies Used
-
-- [Next.js](https://nextjs.org/) - React framework for production
-- [React](https://reactjs.org/) - JavaScript library for building user interfaces
-- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
-- [OpenWeatherMap API](https://openweathermap.org/api) - Weather data provider
-- [Lucide React](https://lucide.dev/) - Icon library
-
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-- **Node.js** (v14.0.0 or later)
-- **npm** (v6.0.0 or later)
-- **OpenWeatherMap API key**: Sign up at [OpenWeatherMap](https://openweathermap.org/api) to obtain your API key.
-
-## Setup and Installation
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/sanzydev/weather-app.git
-    cd weather-app
-    ```
-
-2. Install the dependencies:
-
-    ```bash
-    npm install
-    ```
-
-3. Start the development server:
-
-    ```bash
-    npm run dev
-    ```
-
-5. Open the app in your browser at:
-
-    ```
-    http://localhost:3000
-    ```
-
-## Usage
-
-1. Enter the name of a city in the search bar to fetch its weather information.
-2. View detailed weather data such as:
-    - Current temperature
-    - Weather description
-    - Humidity
-    - Wind speed
-    - Dynamic weather icons
-3. Toggle between light and dark modes using the theme switcher.
-4. Access previous searches from the search history.
-5. Use the geolocation feature to get weather updates for your current location.
-6. 
+    <h2>Usage</h2>
+    <ol>
+        <li>Enter a city name to view its weather.</li>
+        <li>Check details like temperature, humidity, wind speed, and more.</li>
+        <li>Toggle light/dark mode.</li>
+        <li>Use geolocation for instant local weather updates.</li>
+        <li>Access recent searches from history.</li>
+    </ol>
+</body>
+</html>
